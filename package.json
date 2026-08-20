@@ -1,0 +1,28 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start":"node backend/src/main.js",
+    "dev":"nodemon backend/src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santosh-sunuwar-mukhiya/todo_full_stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/santosh-sunuwar-mukhiya/todo_full_stack/issues"
+  },
+  "homepage": "https://github.com/santosh-sunuwar-mukhiya/todo_full_stack#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3",
+    "nodemon": "^3.1.14"
+  }
+}
