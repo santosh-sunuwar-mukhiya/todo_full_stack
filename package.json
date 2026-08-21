@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start":"node backend/src/main.js",
-    "dev":"nodemon backend/src/main.js"
+    "start": "node backend/src/main.js",
+    "dev": "nodemon backend/src/main.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/santosh-sunuwar-mukhiya/todo_full_stack#readme",
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.9.3",
